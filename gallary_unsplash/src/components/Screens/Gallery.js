@@ -1,6 +1,4 @@
-import React, { Component, useState } from 'react'
-import { View, Text, StyleSheet, Image, Button, TouchableOpacity } from 'react-native'
-import { connect } from 'react-redux'
+import React, { Component } from 'react'
 
 import PhotoList from '../PhotoList'
 

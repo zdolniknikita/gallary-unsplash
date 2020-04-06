@@ -1,5 +1,5 @@
-import React, { Component, useEffect } from 'react'
-import { View, Text, StyleSheet, Image, ScrollView, SafeAreaView, TouchableOpacity, ActivityIndicator } from 'react-native'
+import React, { Component } from 'react'
+import { View, StyleSheet, ScrollView, SafeAreaView, ActivityIndicator } from 'react-native'
 import { connect } from 'react-redux'
 
 import ListItem from './ListItem'
@@ -23,11 +23,9 @@ render() {
                             
                     <View style={styles.list}>
                         {
-                            loaded ? 
-                            (
+                            loaded ? (
                                 photos.map(item => <ListItem key={item.id} photo={item} onPress={onPress}/>)
-                            ) : 
-                            ( 
+                            ) : ( 
                                 <ActivityIndicator animating={true} size={'large'}/>
                             )
                         }

@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react'
-import { View, Text, StyleSheet, Image, Dimensions, SafeAreaView, ActivityIndicator } from 'react-native'
+import React, { Component } from 'react'
+import { Text, StyleSheet, SafeAreaView } from 'react-native'
 import { connect } from 'react-redux'
 
 import ImageCard from '../ImageCard'

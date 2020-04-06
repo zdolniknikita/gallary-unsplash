@@ -1,5 +1,5 @@
-import React, { Component, useEffect } from 'react'
-import { View, Text, StyleSheet, Image, Dimensions, TouchableOpacity, Button, TouchableHighlight, ActivityIndicator } from 'react-native'
+import React, { Component } from 'react'
+import { View, Image, ActivityIndicator } from 'react-native'
 
 class ListItem extends Component {
 

@@ -7,7 +7,7 @@ const INITIAL_STATE = {
     photos: []
 }
 
-export default (state = INITIAL_STATE, action) => {
+export default ( state = INITIAL_STATE, action ) => {
 
     switch ( action.type ) {
 

@@ -1,5 +1,5 @@
-import React, { Component, useEffect } from 'react'
-import { View, Text, StyleSheet, Image, Dimensions, TouchableOpacity, Button, TouchableHighlight, ActivityIndicator } from 'react-native'
+import React, { Component } from 'react'
+import { View, Text, StyleSheet, Dimensions, TouchableOpacity } from 'react-native'
 
 import ImageCard from './ImageCard'
 
